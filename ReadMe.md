@@ -1,7 +1,4 @@
 
-
-
-```markdown
 # 🧠 Next Word Predictor
 
 A full-stack Machine Learning application that predicts the **next word** in a given sentence using a deep learning model trained on Shakespeare's text.  
@@ -11,7 +8,7 @@ This project includes:
 - 🧠 Model training using LSTM + Bidirectional RNN
 - 🚀 FastAPI backend for real-time prediction
 - 🎨 Streamlit frontend for user interaction
-```
+
 
 
 ## 🧪 Model Architecture
