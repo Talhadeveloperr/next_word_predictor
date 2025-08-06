@@ -11,32 +11,7 @@ This project includes:
 - 🧠 Model training using LSTM + Bidirectional RNN
 - 🚀 FastAPI backend for real-time prediction
 - 🎨 Streamlit frontend for user interaction
-
-
-
-## 📁 Project Structure
-
 ```
-
-next\_word\_predictor/
-├── api/                    # FastAPI backend
-│   └── app.py              # API with POST /predict
-├── model/                  # Trained model & tokenizer
-│   ├── model.h5
-│   ├── tokenizer.pkl
-│   ├── X.npy
-│   └── y.npy
-├── training/               # Training pipeline
-│   ├── preprocess.py       # Text preprocessing & dataset creation
-│   └── train.py            # LSTM model training script
-├── predict.py              # Next word prediction logic
-├── streamlit\_app.py        # Frontend for interacting with the API
-├── data/
-│   └── shakespeare.txt     # Raw dataset used for training
-└── README.md               # Project documentation
-
-````
-
 
 
 ## 🧪 Model Architecture
