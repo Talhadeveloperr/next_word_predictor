@@ -1,5 +1,5 @@
 
----
+
 
 ```markdown
 # 🧠 Next Word Predictor
@@ -12,7 +12,7 @@ This project includes:
 - 🚀 FastAPI backend for real-time prediction
 - 🎨 Streamlit frontend for user interaction
 
----
+
 
 ## 📁 Project Structure
 
@@ -37,7 +37,7 @@ next\_word\_predictor/
 
 ````
 
----
+
 
 ## 🧪 Model Architecture
 
@@ -50,7 +50,7 @@ next\_word\_predictor/
 Loss function: `categorical_crossentropy`  
 Optimizer: `adam`
 
----
+
 
 ## 📦 Installation
 
@@ -79,7 +79,7 @@ uvicorn
 requests
 ```
 
----
+
 
 ## ⚙️ Usage
 
@@ -109,7 +109,7 @@ streamlit run streamlit_app.py
 
 Streamlit UI will open in the browser: [http://localhost:8501](http://localhost:8501)
 
----
+
 
 ## 📌 Sample Input
 
@@ -125,7 +125,7 @@ to be or not
 Predicted next word: to
 ```
 
----
+
 
 ## 🚀 Deployment Suggestions
 
@@ -133,13 +133,12 @@ Predicted next word: to
 * **Frontend**: Deploy Streamlit app on [Streamlit Cloud](https://streamlit.io/cloud)
 * **Storage**: Use AWS S3 or GitHub for storing model assets (`model.h5`, `tokenizer.pkl`)
 
----
+
 
 ## 📚 Dataset
 
 The dataset used is [Shakespeare’s Complete Works](https://ocw.mit.edu/ans7870/6/6.005/s16/psets/ps1/shakespeare.txt), cleaned and tokenized for training.
 
----
 
 ## 🤝 Contributing
 
@@ -147,5 +146,5 @@ Contributions are welcome! Please open an issue first to discuss your idea.
 
 
 
----
+
 
